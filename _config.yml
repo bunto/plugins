@@ -1,0 +1,16 @@
+title: "Bunto Plugins • Community-built plugins to level up your Bunto experience."
+repository: https://github.com/bunto/plugins
+baseurl: /plugins
+
+collections:
+  plugins:
+    output: true
+    permalink: /:title/
+
+exclude:
+  - vendor
+  - Gemfile*
+  - Rakefile
+  - README.md
+  - spec
+  - script
