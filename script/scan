@@ -4,7 +4,7 @@ trap("SIGINT") { exit! }
 
 require 'bundler'
 Bundler.setup
-require 'html/proofer'
+require 'html-proofer'
 require 'pp'
 
 puts "Using Typhoeus v#{Typhoeus::VERSION}, Ethon v#{Ethon::VERSION}."
